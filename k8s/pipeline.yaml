@@ -16,7 +16,7 @@ spec:
   - default: quay.io/rh-ee-srehman/dotnetcore
     name: IMAGE_NAME
     type: string
-  - default: quay.io/nandahein/dotnetcore
+  - default: .
     name: PATH_CONTEXT
     type: string
   - default: 'https://github.com/NandaHein/dotnetcore-gitops.git'
