@@ -10,10 +10,10 @@ spec:
   - default: https://github.com/NandaHein/dotnetcore-ci-ocp-pipeline.git
     name: GIT_REPO
     type: string
-  - default: master
+  - default: main
     name: GIT_REVISION
     type: string
-  - default: quay.io/rh-ee-srehman/dotnetcore
+  - default: quay.io/nandahein/dotnetcore
     name: IMAGE_NAME
     type: string
   - default: .
